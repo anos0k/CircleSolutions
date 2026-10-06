@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -8,42 +7,188 @@
     <title>Circle Solutions</title>
     <meta name="description" content="Circle Solutions">
 
+    <link rel="icon" href="material/logo/circle.png">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="page">
+    <canvas id="bg-canvas" class="bg-canvas"></canvas>
 
-    <!-- Header -->
     <header class="header">
 
         <div class="container header-container">
-
-          
-
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 <div class="logo-mark"></div>
-                <span class = "text-logo">Circle Solutions</span>
-                <span class = "text-logo-short">CS</span>
+                <div class="text-logo">
+                    <span>Circle</span>
+                    <span>Solutions</span>
+                </div>
+                <span class="text-logo-short">CS</span>
             </a>
-
-            <nav class="nav" id="nav">
-                <img src="material/logo/toppng.com-menu-icon-png-3-lines-512x512.png" alt="Contact Us" class="menu-image">
-                <img src="material/logo/Flag_of_Netherlands-1024x683.webp" alt="EN/NL" class="lang-image">
-                <img src="material/logo/clipart2617205.png" alt="Contact Us" class="contact-image">
-                
-            </nav>
-
-
+            <form class="search" role="search" action="#" method="get">
+                <input type="search" name="q" class="search__input">
+                <button type="submit" class="search__btn" aria-label="Search">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="11" cy="11" r="7"></circle>
+                        <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+                    </svg>
+                </button>
+            </form>
+            <div class="settings">
+                <a href="#" class="lang-btn" aria-label="Language">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="12" cy="12" r="9"></circle>
+                        <path d="M3.6 9h16.8M3.6 15h16.8"></path>
+                        <path d="M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"></path>
+                    </svg>
+                    <span>NL</span>
+                </a>
+            </div>
         </div>
+
         <hr class="header-line">
+
+        <div class="nav-bar">
+            <div class="container nav-container">
+                <nav class="nav" id="nav">
+                    <a href="products.html"><span>Products</span></a>
+                    <a href="information.html"><span>About Us</span></a>
+                    <a href="#reviews"><span>Partners</span></a>
+                    <a href="contact.html"><span>Contact Us</span></a>
+                </nav>
+            </div>
+        </div>
     </header>
 
 
- 
+    <main class="main">
 
+        <section class="section">
+            <div class="container stagger">
+
+                <article class="stagger-card stagger-card--left">
+                    <div class="stagger-card__text">
+                        <h1>Just connect the dots</h1>
+                        <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text.</p>
+                    </div>
+
+ 
+                    <div class="slot slot--media stagger-card__media" data-label="Картинка 1">
+                    <!-- <img src="material/images/home-3.jpg" alt=""> -->
+                    </div>
+                </article>
+
+
+                <article class="stagger-card stagger-card--right stagger-card--reverse">
+                    <div class="stagger-card__text">
+                        <h2>TEXT 2</h2>
+                        <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text.</p>
+                    </div>
+
+                    <div class="slot slot--media stagger-card__media" data-label="Картинка 2">
+                        <!-- <img src="material/images/home-2.jpg" alt=""> -->
+                    </div>
+                </article>
+
+
+   
+                <article class="stagger-card stagger-card--left">
+                    <div class="stagger-card__text">
+                        <h2>TEXT 3</h2>
+                        <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text.</p>
+                    </div>
+
+                    <div class="slot slot--media stagger-card__media" data-label="Картинка 3">
+                        <!-- <img src="material/images/home-3.jpg" alt=""> -->
+                    </div>
+                </article>
+
+                <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+                    <div class="reviews__slider">
+                        <button class="reviews__btn reviews__btn--prev" type="button" aria-label="Предыдущий отзыв">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+
+                        <div class="reviews__viewport" id="reviews-viewport" tabindex="0">
+                            <ul class="reviews__track" id="reviews-track">
+                                <li class="review">
+                                    <p class="review__text">Text Text Text Text Text Text Text Text Text Text Text Text.</p>
+                                    <div class="review__author">
+                                        <span class="review__company"><strong>Amazon</strong></span>
+                                        <span class="review__role">Jef Besos, CEO</span>
+                                    </div>
+                                </li>
+                                <li class="review">
+                                    <p class="review__text">Text Text Text Text Text Text Text Text Text Text Text Text.</p>
+                                    <div class="review__author">
+                                        <span class="review__company"><strong>USA</strong></span>
+                                        <span class="review__role">Donald Trump, Janitor</span>
+                                    </div>
+                                </li>
+                                <li class="review">
+                                    <p class="review__text">Text Text Text Text Text Text Text Text Text Text Text Text.</p>
+                                    <div class="review__author">
+                                        <span class="review__company"><strong>Meta</strong></span>
+                                        <span class="review__role">Mark Zuckerberg, CEO</span>
+                                    </div>
+                                </li>
+                                <li class="review">
+                                    <p class="review__text">Text Text Text Text Text Text Text Text Text Text Text Text.</p>
+                                    <div class="review__author">
+                                        <span class="review__company"><strong>RKN</strong></span>
+                                        <span class="review__role">Bob Soliev, Chef Manager</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="reviews__btn reviews__btn--next" type="button" aria-label="Следующий отзыв">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </section>
+
+                <article class="stagger-card stagger-card--centre">
+                    <div class="stagger-card__text">
+                        <h2>TEXT 4</h2>
+                        <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text.</p>
+                    </div>
+
+                    <div class="slot slot--media stagger-card__media" data-label="Картинка 3">
+                        <!-- <img src="material/images/home-3.jpg" alt=""> -->
+                    </div>
+                </article>
+
+                <article class="stagger-card stagger-card--centre stagger-card--reverse">
+                    <div class="stagger-card__text">
+                        <h2>TEXT 5</h2>
+                        <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text.</p>
+                    </div>
+
+                    <div class="slot slot--media stagger-card__media" data-label="Картинка 3">
+                        <!-- <img src="material/images/home-3.jpg" alt=""> -->
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Circle Solutions. Text Text Text Text Text.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 
 </body>
 </html>
-
