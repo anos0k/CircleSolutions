@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="hub" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="100%" stop-color="#7DD3FC"/>
+    </linearGradient>
+    <linearGradient id="n1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5EEAD4"/>
+      <stop offset="100%" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="n2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93C5FD"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Connection lines from hub -->
+  <line x1="200" y1="200" x2="200" y2="90" stroke="#94A3B8" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="200" x2="300" y2="130" stroke="#94A3B8" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="200" x2="310" y2="230" stroke="#94A3B8" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="200" x2="240" y2="310" stroke="#94A3B8" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="200" x2="110" y2="280" stroke="#94A3B8" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="200" x2="90" y2="150" stroke="#94A3B8" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Central hub -->
+  <circle cx="200" cy="200" r="48" fill="url(#hub)" filter="url(#softGlow)"/>
+  <circle cx="200" cy="200" r="38" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.8"/>
+  <circle cx="200" cy="200" r="28" fill="#BAE6FD" opacity="0.6"/>
+
+  <!-- Orbiting nodes -->
+  <circle cx="200" cy="80" r="22" fill="url(#n1)"/>
+  <circle cx="200" cy="80" r="12" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="200" cy="80" r="5" fill="#0F766E"/>
+
+  <circle cx="310" cy="120" r="20" fill="url(#n2)"/>
+  <circle cx="310" cy="120" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="310" cy="120" r="4" fill="#1E40AF"/>
+
+  <circle cx="320" cy="240" r="18" fill="#67E8F9"/>
+  <circle cx="320" cy="240" r="9" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="320" cy="240" r="4" fill="#0891B2"/>
+
+  <circle cx="250" cy="320" r="20" fill="url(#n1)"/>
+  <circle cx="250" cy="320" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="250" cy="320" r="4" fill="#0F766E"/>
+
+  <circle cx="100" cy="290" r="18" fill="#93C5FD"/>
+  <circle cx="100" cy="290" r="9" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="100" cy="290" r="4" fill="#1D4ED8"/>
+
+  <circle cx="85" cy="145" r="19" fill="#5EEAD4"/>
+  <circle cx="85" cy="145" r="9" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="85" cy="145" r="4" fill="#0D9488"/>
+</svg>

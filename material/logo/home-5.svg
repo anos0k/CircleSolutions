@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" fill="none">
+  <defs>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5EEAD4"/>
+      <stop offset="100%" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main window -->
+  <rect x="40" y="40" width="320" height="400" rx="20" fill="url(#panel)" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Sidebar -->
+  <rect x="40" y="40" width="56" height="400" rx="20" fill="#F1F5F9"/>
+  <rect x="40" y="40" width="56" height="400" fill="#F1F5F9"/>
+  <rect x="80" y="40" width="16" height="400" fill="#F1F5F9"/>
+
+  <!-- Sidebar icons -->
+  <rect x="54" y="70" width="28" height="28" rx="8" fill="#DBEAFE"/>
+  <circle cx="68" cy="84" r="6" fill="#3B82F6"/>
+
+  <rect x="58" y="120" width="20" height="3" rx="1.5" fill="#94A3B8"/>
+  <rect x="58" y="128" width="14" height="3" rx="1.5" fill="#CBD5E1"/>
+
+  <rect x="58" y="155" width="20" height="3" rx="1.5" fill="#94A3B8"/>
+  <rect x="58" y="163" width="14" height="3" rx="1.5" fill="#CBD5E1"/>
+
+  <rect x="58" y="190" width="20" height="3" rx="1.5" fill="#94A3B8"/>
+  <rect x="58" y="198" width="14" height="3" rx="1.5" fill="#CBD5E1"/>
+
+  <circle cx="68" cy="250" r="10" fill="none" stroke="#94A3B8" stroke-width="2"/>
+  <circle cx="68" cy="250" r="4" fill="#94A3B8"/>
+
+  <rect x="58" y="290" width="20" height="3" rx="1.5" fill="#94A3B8"/>
+  <rect x="58" y="298" width="14" height="3" rx="1.5" fill="#CBD5E1"/>
+
+  <!-- Top bar inside -->
+  <rect x="110" y="60" width="220" height="36" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Big donut chart -->
+  <circle cx="180" cy="160" r="42" fill="none" stroke="#E0F2FE" stroke-width="14"/>
+  <circle cx="180" cy="160" r="42" fill="none" stroke="url(#accent1)" stroke-width="14"
+          stroke-dasharray="180 264" stroke-linecap="round" transform="rotate(-90 180 160)"/>
+  <circle cx="180" cy="160" r="22" fill="#F0F9FF"/>
+
+  <!-- Small cards row -->
+  <rect x="110" y="230" width="70" height="70" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="145" cy="255" r="14" fill="none" stroke="#67E8F9" stroke-width="6"/>
+  <rect x="128" y="280" width="34" height="5" rx="2.5" fill="#E2E8F0"/>
+  <rect x="132" y="290" width="26" height="4" rx="2" fill="#F1F5F9"/>
+
+  <rect x="190" y="230" width="70" height="70" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="225" cy="255" r="14" fill="none" stroke="#5EEAD4" stroke-width="6"/>
+  <rect x="208" y="280" width="34" height="5" rx="2.5" fill="#E2E8F0"/>
+  <rect x="212" y="290" width="26" height="4" rx="2" fill="#F1F5F9"/>
+
+  <rect x="270" y="230" width="70" height="70" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <!-- Mini bars -->
+  <rect x="285" y="270" width="10" height="20" rx="2" fill="#93C5FD"/>
+  <rect x="299" y="258" width="10" height="32" rx="2" fill="#60A5FA"/>
+  <rect x="313" y="248" width="10" height="42" rx="2" fill="#14B8A6"/>
+
+  <!-- Bottom wide card -->
+  <rect x="110" y="320" width="230" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- Layers icon -->
+  <rect x="130" y="345" width="36" height="8" rx="2" fill="#BAE6FD"/>
+  <rect x="125" y="356" width="46" height="8" rx="2" fill="#7DD3FC"/>
+  <rect x="120" y="367" width="56" height="8" rx="2" fill="#38BDF8"/>
+
+  <!-- Status dots -->
+  <circle cx="220" cy="355" r="8" fill="#CCFBF1"/>
+  <circle cx="220" cy="355" r="4" fill="#14B8A6"/>
+  <circle cx="250" cy="355" r="8" fill="#E0F2FE"/>
+  <circle cx="250" cy="355" r="4" fill="#0EA5E9"/>
+  <circle cx="280" cy="355" r="8" fill="#D1FAE5"/>
+  <circle cx="280" cy="355" r="4" fill="#10B981"/>
+
+  <!-- Mini wave -->
+  <path d="M200 390 Q220 375 240 390 T280 390" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -97,9 +97,9 @@
 
 
 
-        <section class="band" id="message">
+        <section class="band">
             <div class="container">
-                <div class="slot slot--wide" data-label="Место под контент (форма / карта / баннер)"></div>
+
             </div>
         </section>
 
@@ -114,7 +114,53 @@
 
             </div>
         </section>
+        <form class="review-form" id="review-form" action="#" method="post" novalidate>
+                        <h2 class="review-form__title" id="review-form-title">Leave a review</h2>
+                        <p class="review-form__lead">Worked with us? Tell us how it went.</p>
 
+                        <div class="review-form__grid">
+                            <div class="field">
+                                <label class="field__label" for="rf-name">Your name</label>
+                                <input class="field__input" type="text" id="rf-name" name="name" autocomplete="name" required>
+                            </div>
+
+                            <div class="field">
+                                <label class="field__label" for="rf-company">Company</label>
+                                <input class="field__input" type="text" id="rf-company" name="company" autocomplete="organization">
+                            </div>
+
+                            <div class="field">
+                                <label class="field__label" for="rf-role">Your role</label>
+                                <input class="field__input" type="text" id="rf-role" name="role" autocomplete="organization-title">
+                            </div>
+
+                            <div class="field">
+                                <label class="field__label" for="rf-email">Email <span class="field__hint">(not published)</span></label>
+                                <input class="field__input" type="email" id="rf-email" name="email" autocomplete="email">
+                            </div>
+                        </div>
+
+                        <fieldset class="rating">
+                            <legend class="field__label">Your rating</legend>
+                            <div class="rating__stars">
+                                <input type="radio" id="rf-star5" name="rating" value="5"><label for="rf-star5" title="5" aria-label="5 stars">★</label>
+                                <input type="radio" id="rf-star4" name="rating" value="4"><label for="rf-star4" title="4" aria-label="4 stars">★</label>
+                                <input type="radio" id="rf-star3" name="rating" value="3"><label for="rf-star3" title="3" aria-label="3 stars">★</label>
+                                <input type="radio" id="rf-star2" name="rating" value="2"><label for="rf-star2" title="2" aria-label="2 stars">★</label>
+                                <input type="radio" id="rf-star1" name="rating" value="1"><label for="rf-star1" title="1" aria-label="1 star">★</label>
+                            </div>
+                        </fieldset>
+
+                        <div class="field">
+                            <label class="field__label" for="rf-text">Your review</label>
+                            <textarea class="field__input field__input--area" id="rf-text" name="text" rows="5" maxlength="600" required></textarea>
+                        </div>
+
+                        <div class="review-form__footer">
+                            <button class="btn" type="submit">Send review</button>
+                            <p class="review-form__status" id="review-form-status" role="status" aria-live="polite"></p>
+                        </div>
+        </form>
     </main>
 
 

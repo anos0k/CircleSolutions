@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="bar1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#BFDBFE"/>
+      <stop offset="100%" stop-color="#93C5FD"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#93C5FD"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="bar4" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="bar5" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Baseline -->
+  <line x1="60" y1="320" x2="340" y2="320" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Bars -->
+  <rect x="80" y="260" width="32" height="60" rx="4" fill="url(#bar1)"/>
+  <rect x="125" y="230" width="32" height="90" rx="4" fill="url(#bar1)"/>
+  <rect x="170" y="195" width="32" height="125" rx="4" fill="url(#bar2)"/>
+  <rect x="215" y="160" width="32" height="160" rx="4" fill="url(#bar3)"/>
+  <rect x="260" y="120" width="32" height="200" rx="4" fill="url(#bar4)"/>
+  <rect x="305" y="85" width="32" height="235" rx="4" fill="url(#bar5)"/>
+
+  <!-- Trend line -->
+  <polyline points="96,250 141,220 186,185 231,150 276,110 321,75"
+            fill="none" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Data points on line -->
+  <circle cx="96" cy="250" r="5" fill="#0D9488"/>
+  <circle cx="141" cy="220" r="5" fill="#0D9488"/>
+  <circle cx="186" cy="185" r="5" fill="#0D9488"/>
+  <circle cx="231" cy="150" r="5" fill="#0D9488"/>
+  <circle cx="276" cy="110" r="5" fill="#0D9488"/>
+  <circle cx="321" cy="75" r="5" fill="#0D9488"/>
+</svg>

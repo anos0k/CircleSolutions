@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" fill="none">
+  <defs>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECFEFF"/>
+      <stop offset="100%" stop-color="#CFFAFE"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0FDFA"/>
+      <stop offset="100%" stop-color="#CCFBF1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cards -->
+  <!-- 1. Gear -->
+  <rect x="20" y="50" width="70" height="90" rx="12" fill="url(#card1)" stroke="#BFDBFE" stroke-width="1.5"/>
+  <circle cx="55" cy="85" r="18" fill="none" stroke="#3B82F6" stroke-width="2.5"/>
+  <circle cx="55" cy="85" r="7" fill="#3B82F6"/>
+  <path d="M55 60v8 M55 102v8 M30 85h8 M72 85h8 M38 68l6 6 M66 102l6 6 M38 102l6-6 M66 68l6-6"
+        stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Arrow 1 -->
+  <line x1="95" y1="95" x2="115" y2="95" stroke="#94A3B8" stroke-width="2"/>
+  <circle cx="125" cy="95" r="6" fill="#60A5FA"/>
+
+  <!-- 2. Database -->
+  <rect x="140" y="50" width="70" height="90" rx="12" fill="url(#card1)" stroke="#BFDBFE" stroke-width="1.5"/>
+  <ellipse cx="175" cy="70" rx="18" ry="8" fill="none" stroke="#0EA5E9" stroke-width="2"/>
+  <path d="M157 70v30c0 4.4 8 8 18 8s18-3.6 18-8V70" fill="none" stroke="#0EA5E9" stroke-width="2"/>
+  <line x1="157" y1="85" x2="193" y2="85" stroke="#0EA5E9" stroke-width="1.5"/>
+  <line x1="157" y1="98" x2="193" y2="98" stroke="#0EA5E9" stroke-width="1.5"/>
+
+  <!-- Arrow 2 -->
+  <line x1="215" y1="95" x2="235" y2="95" stroke="#94A3B8" stroke-width="2"/>
+  <circle cx="245" cy="95" r="6" fill="#22D3EE"/>
+
+  <!-- 3. Cloud -->
+  <rect x="260" y="50" width="70" height="90" rx="12" fill="url(#card2)" stroke="#A5F3FC" stroke-width="1.5"/>
+  <path d="M280 100c-6 0-10-4-10-9s4-9 10-9c1-7 7-12 14-12 6 0 11 4 13 9 1-1 2-1 4-1 5 0 9 4 9 9s-4 9-9 9h-31z"
+        fill="#22D3EE" opacity="0.8"/>
+  <path d="M290 85v12 M290 85l-5 5 M290 85l5 5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Arrow 3 -->
+  <line x1="335" y1="95" x2="355" y2="95" stroke="#94A3B8" stroke-width="2"/>
+  <circle cx="365" cy="95" r="6" fill="#14B8A6"/>
+
+  <!-- 4. Chart -->
+  <rect x="380" y="50" width="70" height="90" rx="12" fill="url(#card3)" stroke="#99F6E4" stroke-width="1.5"/>
+  <polyline points="395,115 405,100 415,105 425,85 435,90"
+            fill="none" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="395" cy="115" r="3" fill="#0D9488"/>
+  <circle cx="405" cy="100" r="3" fill="#0D9488"/>
+  <circle cx="415" cy="105" r="3" fill="#0D9488"/>
+  <circle cx="425" cy="85" r="3" fill="#0D9488"/>
+  <circle cx="435" cy="90" r="3" fill="#0D9488"/>
+
+  <!-- Final check -->
+  <circle cx="470" cy="95" r="12" fill="#14B8A6"/>
+  <path d="M464 95l4 4 8-8" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
